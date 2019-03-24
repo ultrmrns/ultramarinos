@@ -1722,7 +1722,7 @@ nav.opened .hamburger span {
   padding-bottom: (@paddingBottom * 15px);
 }
 & when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
+  background-image: url(../../../../../../@bg-value);
 }
 & when (@bg-type = 'color') {
   background-color: @bg-value;
@@ -1732,7 +1732,7 @@ nav.opened .hamburger span {
   color: #efefef;
 }
 H1 {
-  color: #120a8f;
+  color: #efefef;
 }
 }
 
@@ -1845,7 +1845,7 @@ padding-bottom: (@paddingBottom * 15px);
   background-color: @bg-value;
 }
 & when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
+  background-image: url(../../../../../../@bg-value);
 }
 .mbr-section-subtitle {
   color: #767676;
