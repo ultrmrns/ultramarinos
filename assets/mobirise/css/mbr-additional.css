@@ -1628,6 +1628,10 @@ body {
 .cid-rlQnE5wPiH .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
+.cid-rlQnE5wPiH .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-rlQnE5wPiH .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
+}
 .cid-rlQnE5wPiH .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-rlQnE5wPiH .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1635,11 +1639,6 @@ body {
 .cid-rlQnE5wPiH .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rlQnE5wPiH .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
-}
-@media (min-width: 992px) {
-  .cid-rlQnE5wPiH .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
 }
 .cid-rlQnE5wPiH .collapsed button.navbar-toggler {
   display: block;
@@ -1729,6 +1728,10 @@ body {
   .cid-rlQnE5wPiH .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
   }
+  .cid-rlQnE5wPiH .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-rlQnE5wPiH .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
+  }
   .cid-rlQnE5wPiH .navbar-collapse.collapsing .navbar-buttons,
   .cid-rlQnE5wPiH .navbar-collapse.show .navbar-buttons {
     text-align: center;
@@ -1799,7 +1802,7 @@ body {
   color: #120a8f;
 }
 .cid-rlPD2hKRBL H1 {
-  color: #cc2952;
+  color: #120a8f;
 }
 .cid-rlPD2hKRBL .mbr-text,
 .cid-rlPD2hKRBL .mbr-section-btn {
@@ -1807,7 +1810,7 @@ body {
   text-align: center;
 }
 .cid-rlPD2hKRBL B {
-  color: #cc2952;
+  color: #120a8f;
 }
 .cid-rlPD2hKRBL .mbr-text,
 .cid-rlPD2hKRBL .mbr-section-btn B {
@@ -1846,6 +1849,7 @@ body {
 }
 .cid-rlPDvxytzN .mbr-text {
   color: #767676;
+  text-align: center;
 }
 .cid-rlPDvxytzN .card-wrapper {
   height: 100%;
@@ -1863,6 +1867,9 @@ body {
     padding: 15px;
     -webkit-flex: 0 0 20%;
   }
+}
+.cid-rlPDvxytzN .card-title {
+  text-align: center;
 }
 .cid-rlPDjIjIL3 {
   padding-top: 60px;
